@@ -1,11 +1,38 @@
 table {
-    border-spacing: 0;
+    border-spacing: 1px;
+    background-color: #aaa;
 }
 
-td {
+.botao {
     text-align: center;
     width: 50px;
     height: 50px;
     border: 5px outset #eee;
     background-color: #ccc;
+}
+
+.botao-aberto {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    /* border: 5px solid #aaa; */
+    background-color: #ccc;
+}
+
+.botao-bandeira {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    /* border: 5px outset #eee; */
+    border: 5px solid #ccc;
+    background: #ccc center/contain url('imagens/bandeira.png') no-repeat;
+}
+
+.botao-bomba {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    /* border: 5px outset #eee; */
+    border: 5px solid #ccc;
+    background: #ccc center/contain url('imagens/bomba.png') no-repeat;
 }
