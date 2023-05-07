@@ -1,6 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 table {
     border-spacing: 1px;
     background-color: #aaa;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dificuldade {
+    margin-bottom: 20px;
 }
 
 .botao {

@@ -54,6 +54,13 @@ function cliqueDoUsuario(linha, coluna) {
   } else if (mapaDeMinas[linha][coluna] === 1) {
     tabela.rows[linha].cells[coluna].className = "botao-bomba";
     // COLOCAR A LOGICA PRA SABER SE O USUARIO PERDEU
-    alert('perdeu!')
+    alert("perdeu!");
   }
+}
+
+function alterarDificuldade() {
+  var dificuldade = parseInt(document.getElementById("dificuldade").value);
+  // O value já é o tamanho do mapa: 3, 5 ou 7
+  tamanhoDoMapa = dificuldade;
+  iniciar();
 }

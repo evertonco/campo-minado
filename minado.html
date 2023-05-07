@@ -9,11 +9,23 @@
     <link rel="stylesheet" href="minado.css" />
 
     <script src="minado.js"></script>
-
   </head>
   <body onload="iniciar()">
-    <p>Campo minado</p>
-    <table>
-    </table>
+    <p class="titulo">Campo minado</p>
+
+    <div>
+      <label for="dificuldade">Selecione uma dificuldade</label>
+      <select
+        id="dificuldade"
+        class="dificuldade"
+        onchange="alterarDificuldade()"
+      >
+        <option value="3">Fácil</option>
+        <option value="5">Normal</option>
+        <option value="7">Difícil</option>
+      </select>
+    </div>
+
+    <table></table>
   </body>
 </html>
